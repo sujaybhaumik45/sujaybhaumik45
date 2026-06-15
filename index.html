@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Mayami</title>
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header and navigation -->
+  <header id="header">
+    <nav class="navbar container">
+      <div class="logo">Café&nbsp;Mayami</div>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="section hero">
+    <div class="hero-content">
+      <h1>Experience Miami’s Finest Coffee</h1>
+      <p>
+        Discover the taste of passion, culture and community. Step into
+        a world where every cup tells a story.
+      </p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+    <div class="hero-deco"></div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>About&nbsp;Us</h2>
+        <p>
+          Located in the heart of Miami, Café&nbsp;Mayami blends artisanal
+          coffee with a warm, inviting atmosphere. Our baristas craft each
+          cup with passion and precision, using ethically sourced beans
+          from around the world.
+        </p>
+        <p>
+          Come unwind, connect with friends or simply savour a moment of
+          calm in our cosy space filled with lush greenery and pastel
+          accents.
+        </p>
+      </div>
+      <div class="about-card" data-tilt data-tilt-perspective="700" data-tilt-speed="500">
+        <div class="card-overlay"></div>
+        <i class="fas fa-mug-hot"></i>
+        <h3>Our Story</h3>
+        <p>
+          From bean to cup, our mission is to bring the richness of global
+          coffee culture to Miami’s vibrant community.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section menu">
+    <div class="container">
+      <h2>Our&nbsp;Menu</h2>
+      <p class="section-subtitle">Crafted with care using the finest ingredients.</p>
+      <div class="menu-grid">
+        <div class="menu-item" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+          <i class="fas fa-coffee"></i>
+          <h3>Espresso</h3>
+          <p>Rich and intense shot of espresso brewed with our signature blend.</p>
+          <span class="price">$3.50</span>
+        </div>
+        <div class="menu-item" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+          <i class="fas fa-mug-hot"></i>
+          <h3>Cappuccino</h3>
+          <p>Velvety steamed milk folded over a shot of espresso, topped with foam.</p>
+          <span class="price">$4.50</span>
+        </div>
+        <div class="menu-item" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+          <i class="fas fa-ice-cream"></i>
+          <h3>Pastries</h3>
+          <p>Selection of freshly baked croissants, muffins and tarts.</p>
+          <span class="price">$2.50+</span>
+        </div>
+        <div class="menu-item" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+          <i class="fas fa-bread-slice"></i>
+          <h3>Sandwiches</h3>
+          <p>Artisan sandwiches made with organic breads and local produce.</p>
+          <span class="price">$6.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p class="section-subtitle">A taste of our ambience and creations.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item pastel1" data-tilt></div>
+        <div class="gallery-item pastel2" data-tilt></div>
+        <div class="gallery-item pastel3" data-tilt></div>
+        <div class="gallery-item pastel4" data-tilt></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h2>Contact&nbsp;Us</h2>
+        <p>
+          We’d love to hear from you! Reach out to us with any questions,
+          special requests or just to say hello.
+        </p>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i>123 Ocean Drive, Miami Beach, FL 33139</li>
+          <li><i class="fas fa-phone-alt"></i>(305) 555‑0123</li>
+          <li><i class="fas fa-envelope"></i>hello@cafemayami.com</li>
+          <li><i class="fas fa-clock"></i>Mon–Sun: 7 AM – 9 PM</li>
+        </ul>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>Send a Message</h2>
+        <form onsubmit="return false">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Café Mayami. All rights reserved.</p>
+      <ul class="footer-nav">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Libraries and Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
